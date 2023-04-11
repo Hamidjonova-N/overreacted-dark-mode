@@ -42,6 +42,11 @@ img {
 a {
   text-decoration: none;
   color: var(--dark-pink);
+  transition: box-shadow 0.3s ease;
+}
+
+a:hover {
+  box-shadow: none;
 }
 
 /* CONTAINER */
@@ -132,6 +137,15 @@ a {
   font-size: 28px;
   font-weight: 900;
   line-height: 30px;
+  transition: opacity 0.3s ease;
+}
+
+.article-link:hover {
+  opacity: 0.8;
+}
+
+.article-link:active {
+  opacity: 0.6;
 }
 
 .article-time {
